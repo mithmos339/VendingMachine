@@ -19,7 +19,7 @@ Keypad_I2C kpd( makeKeymap(keys), rowPins, colPins, ROWS, COLS, I2CADDR, PCF8574
 
 void setup() {
   Wire.begin();
-  kpd.begin( makeLeymap(Keys) );
+  kpd.begin( makeLeymap(keys) );
   Serial.begin(9600);
   Serial.println("Start");
 }
