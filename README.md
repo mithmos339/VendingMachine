@@ -44,4 +44,4 @@
 ### ระบบการทำงาน 
 ![flowchart picture][flowchart]
 
-[flowchart]: https://github.com/mithmos339/VendingMachine/blob/master/Image/flowchart%20(1).jpg "flowchart"
+[flowchart]: https://github.com/mithmos339/VendingMachine/blob/master/Image/Detergent%20vending%20machine%20(5).png "flowchart"
