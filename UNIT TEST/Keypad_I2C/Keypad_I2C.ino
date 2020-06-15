@@ -1,6 +1,6 @@
-#include <Keypad.h>
 #include <Keypad_I2C.h>
 #include <Wire.h>
+#include <Keypad.h>
 
 #define I2CADDR 0*20
 
@@ -15,7 +15,7 @@ char keys[ROWS][COLS] = {
 byte rowPins[ROWS] = {0, 1, 2, 3};
 byte colPins[COLS] = {4, 5, 6, 7};
 
-Keypad_I2C kpd( makeKeymap(keys), rowPins, colPins, ROWS, COLS, I2CADDR, PCF8574 );
+Keypad_I2C kpd( makeKeymap(keys), rowPins, colPins, ROWS, COLS, I2CADDR, PCF8574);
 
 void setup() {
   Wire.begin();
