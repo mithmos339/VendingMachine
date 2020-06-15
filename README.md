@@ -39,9 +39,9 @@
 ### โครงสร้างพื้นฐาน
 ![diagram picture][diagram]
 
-[diagram]: https://github.com/mithmos339/VendingMachine/blob/master/diagram2.png "Diagram"
+[diagram]: https://github.com/mithmos339/VendingMachine/blob/master/Image/diagram2.png "Diagram"
 
 ### ระบบการทำงาน 
 ![flowchart picture][flowchart]
 
-[flowchart]: https://github.com/mithmos339/VendingMachine/blob/master/flowchart%20(1).jpg "flowchart"
+[flowchart]: https://github.com/mithmos339/VendingMachine/blob/master/Image/flowchart%20(1).jpg "flowchart"
