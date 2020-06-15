@@ -12,7 +12,7 @@ void setup()
 
 }
 
-void loop ()
+void loop()
 {
     digitalWrite (in0,LOW);
     digitalWrite (in1,HIGH);

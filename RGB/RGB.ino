@@ -1,5 +1,5 @@
 int redpin = 3; //select the pin for the red LED
-int bluepin =6; // select the pin for the  blue LED
+int bluepin = 6; // select the pin for the  blue LED
 int greenpin = 5;// select the pin for the green LED
 
 int val;
