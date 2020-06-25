@@ -26,7 +26,8 @@ void setup() {
 }
 void loop() {
   char key = kpd.getKey();
-  if (key) {
+  if (key != NO_KEY) {
     Serial.println(key);
   }
+  
 }

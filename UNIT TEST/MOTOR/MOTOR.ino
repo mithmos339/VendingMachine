@@ -1,24 +1,24 @@
-const int in0 = 7;
-const int in1 = 8;
-const int in2 = 2;
-const int in3 = 4;
+const int in11 = 7;
+const int in12 = 8;
+const int in21 = 2;
+const int in22 = 4;
 
 void setup()
 {
-    pinMode (in0,OUTPUT);
-    pinMode (in1,OUTPUT);
-    pinMode (in2,OUTPUT);
-    pinMode (in3,OUTPUT);
+    pinMode (in11,OUTPUT);
+    pinMode (in12,OUTPUT);
+    pinMode (in21,OUTPUT);
+    pinMode (in22,OUTPUT);
     Serial.begin(9600);
 
 }
 
 void loop()
 {
-    digitalWrite (in0,LOW);
-    digitalWrite (in1,HIGH);
+    digitalWrite (in11,LOW);
+    digitalWrite (in12,HIGH);
     delay(5000);
-    digitalWrite (in2,HIGH);
-    digitalWrite (in3,LOW);
+    digitalWrite (in21,LOW);
+    digitalWrite (in22,HIGH);
     delay(5000);
 }

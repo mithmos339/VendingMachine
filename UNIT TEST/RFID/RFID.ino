@@ -8,6 +8,7 @@
 MFRC522 rfid(SS_PIN, RST_PIN);
 
 MFRC522::MIFARE_Key key;
+int cnt = 0;
 
 void setup() {
   Serial.begin(9600);
@@ -42,9 +43,11 @@ void loop() {
 
   // เมื่อถึงส่วนนี้ ตัวแปร strID จะเก็บค่า UID ของแท็กไว้แล้ว
   // สามารถนำไปใช้งานได้เลย 
-  Serial.print("Tap card key: ");
-  Serial.println(strID);
-
+  if (strID == "09:98:1A:C3"){
+      cnt++;
+      Serial.println(cnt);
+  }
+  
   rfid.PICC_HaltA();
   rfid.PCD_StopCrypto1();
 }

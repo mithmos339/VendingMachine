@@ -18,7 +18,6 @@ void loop()
     analogWrite(redpin, val);  //set PWM value for red
     analogWrite(bluepin, 255 - val); //set PWM value for blue
     analogWrite(greenpin, 128 - val); //set PWM value for green
-    Serial.println(val); //print current value 
     delay(1); 
   }
   for(val = 0; val < 255; val++)
@@ -26,7 +25,6 @@ void loop()
     analogWrite(redpin, val);
     analogWrite(bluepin, 255 - val);
     analogWrite(greenpin, 128 - val);
-    Serial.println(val);
     delay(1); 
   }
 }
