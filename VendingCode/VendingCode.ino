@@ -37,10 +37,11 @@ char keys[ROWS][COLS] = {
 byte rowPins[ROWS] = {0, 1, 2, 3};
 byte colPins[COLS] = {4, 5, 6, 7};
 
-int E = 10; // เหรียญ
+int E = 10; // เหรียญ                 //เปลี่ยนค่าราคาสินค้าและค่าของเงินใน ARDUINO 
 int F = 20; // ธนบัตร
 int ProductA = 5; // ราคาสินค้า A
 int ProductB = 10; // ราคาสินค้า B
+
 int num1 = 0; // เงินรวม
 int num2, num3; // จำนวนสินค้า , เงินค่าสินค้ารวม
 int d; // วินาที * จำนวนสินค้า
