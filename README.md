@@ -1,4 +1,4 @@
-﻿# Detergent Vending-Machine
+# Detergent Vending-Machine
 
 คือ ระบบการซื้อของจากการกดสั่งตามต้องการหรือตู้ขายสินค้าแบบหยอดเหรียญ โดยใช้เหรียญในการซื้อ แต่ในกรณีนี้ไม่มีเซนเซอร์ที่ตรวจจับเหรียญ เลยนำ RFID 
 มาใช้จำลองแทนเหรียญ ซึ่งผู้ที่นำไปใช้สามารถเข้าไปปรับแต่งโค้ดเพื่อเปลี่ยนราคาสินค้าที่จะวางขายได้ตามต้องการ 
@@ -44,4 +44,4 @@
 ### ระบบการทำงาน 
 ![flowchart picture][flowchart]
 
-[flowchart]: https://github.com/mithmos339/VendingMachine/blob/master/Image/FLOW.png "flowchart"
+[flowchart]: https://github.com/mithmos339/VendingMachine/blob/master/Image/New%20flow.png "flowchart"
