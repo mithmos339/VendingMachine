@@ -133,7 +133,7 @@ void loop() {
         else if (op == 'B')
         {
             num3 = num2 * ProductB;
-            if (op == 'A' && num3 <= num1)
+            if (op == 'B' && num3 <= num1)
             {
                 num1 = num1 - num3;
                 sevenSegment.displayNum(num1);
