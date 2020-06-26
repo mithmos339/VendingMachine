@@ -117,6 +117,9 @@ void loop() {
             {
                 num1 = num1 - num3;
                 sevenSegment.displayNum(num1);
+                analogWrite(bluepin, 1);
+                analogWrite(redpin, 0);
+                analogWrite(greenpin, 0);
                 d = num2 * 500;
                 digitalWrite (in11,LOW);
                 digitalWrite (in12,HIGH);
@@ -137,6 +140,9 @@ void loop() {
             {
                 num1 = num1 - num3;
                 sevenSegment.displayNum(num1);
+                analogWrite(bluepin, 0);
+                analogWrite(redpin, 1);
+                analogWrite(greenpin, 0);
                 d = num2 * 500;
                 digitalWrite (in21,LOW);
                 digitalWrite (in22,HIGH);
